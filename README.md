@@ -1,5 +1,5 @@
 # Examples of useful functional programming codes
-This document aims to specify some useful functional programming examples.
+This document aims to specify some useful functional programming examples written in javascript (ECMAScript 6).
 
 ## Reduce
 Return an object where each property is the name of an ice cream flavor and each value is an integer that's the total count of that flavor.
