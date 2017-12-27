@@ -4,7 +4,7 @@ This document aims to specify some useful functional programming examples writte
 ## Reduce
 Return an object where each property is the name of an ice cream flavor and each value is an integer that's the total count of that flavor.
 
-```
+```jsx
 const data = [
 	{ name: 'Tyler', favoriteIceCreams: ['Strawberry', 'Vanilla', 'Chocolate', 'Cookies & Cream'] },
 	{ name: 'Richard', favoriteIceCreams: ['Cookies & Cream', 'Mint Chocolate Chip', 'Chocolate', 'Vanilla'] },
@@ -30,7 +30,7 @@ const iceCreamTotals = data.reduce((acc, obj) => {
 ```
 
 Result:
-```
+```jsx
 { 
 	Strawberry: 3,
 	Vanilla: 4,
