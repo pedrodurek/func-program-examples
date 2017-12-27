@@ -30,7 +30,7 @@ const iceCreamTotals = data.reduce((acc, obj) => {
 ```
 
 Result:
-```jsx
+```jsx	
 { 
 	Strawberry: 3,
 	Vanilla: 4,
@@ -49,7 +49,7 @@ Result:
 ## Filter and Map
 Filter the common objects in the xs which are in the ys (from the id).
 
-```
+```jsx
 const xs = [{
     id: 1,
     valor: '10'
@@ -81,7 +81,7 @@ const result = xs.filter((x) => bar.has(x.id));
 ```
 
 Result:
-```
+```jsx
 [{
     id: 1,
     valor: '10'
