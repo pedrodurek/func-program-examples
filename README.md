@@ -12,7 +12,7 @@ const data = [
 	{ name: 'Andrew', favoriteIceCreams: ['Vanilla', 'Chocolate', 'Mint Chocolate Chip'] },
 	{ name: 'David', favoriteIceCreams: ['Vanilla', 'French Vanilla', 'Vanilla Bean', 'Strawberry'] },
 	{ name: 'Karl', favoriteIceCreams: ['Strawberry', 'Chocolate', 'Mint Chocolate Chip'] }
- ]
+]
 
 const iceCreamTotals = data.reduce((acc, obj) => {
     
