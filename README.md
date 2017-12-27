@@ -82,11 +82,9 @@ const result = xs.filter((x) => bar.has(x.id));
 
 Result:
 ```
-[
-	{
-	    id: 1,
-	    valor: '10'
-	}
-]
+[{
+    id: 1,
+    valor: '10'
+}]
 ```
 
